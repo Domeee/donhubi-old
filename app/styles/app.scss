@@ -1,9 +1,5 @@
 @import "variables";
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
-body {
-  // background-color: #000;
-}
-
 header {
   margin-top: 2vh;
 }
@@ -18,6 +14,11 @@ main {
   }
 }
 
+.nav-link {
+  color: $brand-primary;
+  text-decoration: none;
+}
+
 .row {
   >.col,
   >[class*="col-"] {
@@ -27,4 +28,10 @@ main {
 
 .card {
   height: 100%;
+  .card-tags {
+    margin-bottom: 16px;
+    span {
+      margin-right: 3px;
+    }
+  }
 }
