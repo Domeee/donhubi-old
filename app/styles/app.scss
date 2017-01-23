@@ -1,0 +1,30 @@
+@import "variables";
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+body {
+  // background-color: #000;
+}
+
+header {
+  margin-top: 2vh;
+}
+
+main {
+  margin-top: 4vh;
+}
+
+.navbar-brand {
+  img {
+    width: 100px;
+  }
+}
+
+.row {
+  >.col,
+  >[class*="col-"] {
+    margin-top: 2vh;
+  }
+}
+
+.card {
+  height: 100%;
+}
